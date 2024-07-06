@@ -1,0 +1,54 @@
+.work-sans-normal> {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name-mary {
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+
+.color-black {
+    color: black;
+}
+
+.orange {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 150px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 50px;
+    font-weight: 700;
+    color: black;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    width: 150px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
