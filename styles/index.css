@@ -107,7 +107,7 @@ img {
     padding: 13px;
     border-radius: 5px;
     margin-left: 15px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .btn-flex {
@@ -147,7 +147,7 @@ img {
 
 .about-me {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
 }
 
@@ -201,9 +201,77 @@ img {
     gap: 5px;
 }
 
+/* cart container style */
 .cart-shadow {
     box-shadow: drop;
     padding: 20px;
     /* border: #757575 solid 2px; */
     box-shadow: 2px 2px 2px 2px #cac7c7;
+}
+
+.resume-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1580px;
+    height: auto;
+
+}
+
+.resume-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-details {
+    padding: 70px;
+}
+
+.resume-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h4-tag {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.h2-tag {
+    font-size: 40px;
+}
+
+.btn-div {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.input-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+}
+
+.footer-details {
+    padding: 50px;
+}
+
+.input-text {
+    padding: 40px;
+}
+
+.input-pedding {
+    padding: 10px;
 }
