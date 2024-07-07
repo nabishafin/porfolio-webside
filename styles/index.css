@@ -115,3 +115,95 @@ img {
     align-items: center;
     margin-top: 30px;
 }
+
+/* About section */
+
+.bg-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+
+}
+
+.about-details {
+    width: 1500px;
+    height: 500px;
+    background-color: #FFF8F3;
+    /* border: 2px solid black; */
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.info-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.about-me {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about-section {
+    margin-top: 50px;
+    background-color: white;
+}
+
+.red {
+    padding: 40px;
+    /* border: 2px solid red; */
+    background-color: white;
+    margin: 50px;
+}
+
+/* section-how */
+.section-how {
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    width: 1580px;
+    height: auto;
+
+}
+
+.how {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.what {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.how-lorem {
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #757575;
+}
+
+.cart {
+    width: 265px;
+    height: 255px;
+    /* border: #757575 solid 2px; */
+    padding: 70px;
+}
+
+.cart-flex {
+    display: flex;
+    gap: 5px;
+}
+
+.cart-shadow {
+    box-shadow: drop;
+    padding: 20px;
+    /* border: #757575 solid 2px; */
+    box-shadow: 2px 2px 2px 2px #cac7c7;
+}
